@@ -1,0 +1,409 @@
+:root {
+  --uk-main: #0077c8;
+  --uk-dark-blue: #16526f;
+  --uk-white: #ffffff;
+  --uk-gary-para: #636363;
+  --uk-gray-light: #828282;
+  --uk-header-color: #898989;
+  --uk-red: #db3d32;
+  --uk-green: #416218;
+  --uk-heading: #313030;
+  --uk-white-light: #fffdfd;
+}
+
+@font-face {
+  font-family: "Caveat";
+  src: url("../fonts/Caveat-Regular.eot");
+  src: url("../fonts/Caveat-Regular.eot");
+  src: url("../fonts/Caveat-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Caveat-Regular.woff2") format("woff2"),
+    url("../fonts/Caveat-Regular.woff") format("woff"),
+    url("../fonts/Caveat-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Caveat";
+  src: url("../fonts/Caveat-Bold.eot");
+  src: url("../fonts/Caveat-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Caveat-Bold.woff2") format("woff2"),
+    url("../fonts/Caveat-Bold.woff") format("woff"),
+    url("../fonts/Caveat-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-BoldItalic.eot");
+  src: url("../fonts/Roboto-BoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Roboto-BoldItalic.woff2") format("woff2"),
+    url("../fonts/Roboto-BoldItalic.woff") format("woff"),
+    url("../fonts/Roboto-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-BlackItalic.eot");
+  src: url("../fonts/Roboto-BlackItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Roboto-BlackItalic.woff2") format("woff2"),
+    url("../fonts/Roboto-BlackItalic.woff") format("woff"),
+    url("../fonts/Roboto-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.eot");
+  src: url("../fonts/Roboto-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Roboto-Bold.woff2") format("woff2"),
+    url("../fonts/Roboto-Bold.woff") format("woff"),
+    url("../fonts/Roboto-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Black.eot");
+  src: url("../fonts/Roboto-Black.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Roboto-Black.woff2") format("woff2"),
+    url("../fonts/Roboto-Black.woff") format("woff"),
+    url("../fonts/Roboto-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto-Italic.eot");
+  src: url("Roboto-Italic.eot?#iefix") format("embedded-opentype"),
+    url("Roboto-Italic.woff2") format("woff2"),
+    url("Roboto-Italic.woff") format("woff"),
+    url("Roboto-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.eot");
+  src: url("../fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Roboto-Regular.woff2") format("woff2"),
+    url("../fonts/Roboto-Regular.woff") format("woff"),
+    url("../fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Medium.eot");
+  src: url("../fonts/Roboto-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Roboto-Medium.woff2") format("woff2"),
+    url("../fonts/Roboto-Medium.woff") format("woff"),
+    url("../fonts/Roboto-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Light.eot");
+  src: url("../fonts/Roboto-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Roboto-Light.woff2") format("woff2"),
+    url("../fonts/Roboto-Light.woff") format("woff"),
+    url("../fonts/Roboto-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Thin.eot");
+  src: url("../fonts/Roboto-Thin.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Roboto-Thin.woff2") format("woff2"),
+    url("../fonts/Roboto-Thin.woff") format("woff"),
+    url("../fonts/Roboto-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-LightItalic.eot");
+  src: url("../fonts/Roboto-LightItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Roboto-LightItalic.woff2") format("woff2"),
+    url("../fonts/Roboto-LightItalic.woff") format("woff"),
+    url("../fonts/Roboto-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-MediumItalic.eot");
+  src: url("../fonts/Roboto-MediumItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Roboto-MediumItalic.woff2") format("woff2"),
+    url("../fonts/Roboto-MediumItalic.woff") format("woff"),
+    url("../fonts/Roboto-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-ThinItalic.eot");
+  src: url("../fonts/Roboto-ThinItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Roboto-ThinItalic.woff2") format("woff2"),
+    url("../fonts/Roboto-ThinItalic.woff") format("woff"),
+    url("../fonts/Roboto-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "fontAwesome";
+  src: url("../fonts/webfonts/fa-brands-400.ttf");
+  src: url("../fonts/webfonts/fa-brands-400.woff2") format("woff"),
+    url("../fonts/webfonts/fa-regular-400.ttf") format("truetype"),
+    url("../fonts/webfonts/fa-regular-400.woff2") format("woff"),
+    url("../fonts/webfonts/fa-solid-900.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.para {
+  font-size: 1.125rem;
+  line-height: 1.8rem;
+  color: var(--uk-gary-para);
+}
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: inherit;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-primary {
+  background-color: var(--uk-main);
+  border-color: var(--uk-main);
+}
+
+.btn-success {
+  background-color: var(--uk-green);
+  border-color: var(--uk-green);
+}
+
+.btn-blue {
+  background-color: var(--uk-dark-blue) !important;
+  border-color: var(--uk-dark-blue);
+}
+
+.bg-danger {
+  background-color: var(--uk-red) !important;
+  border-color: var(--uk-red);
+}
+
+.bg-primary {
+  background-color: var(--uk-main) !important;
+}
+
+/* ====== Header Section ========== */
+
+.header__top-section {
+  font-size: 1.125rem;
+  font-weight: 600;
+  background-color: var(--uk-white);
+}
+
+.header_contact {
+  color: var(--uk-heading);
+}
+.header__icon {
+  color: var(--uk-main);
+}
+
+.header_para {
+  font-size: 0.688rem;
+  text-align: center;
+  padding: 16px;
+  line-height: 17px;
+}
+
+.header__join-btn {
+  padding: 7px;
+  font-weight: 600;
+}
+.header__join-btn:hover {
+  background-color: var(--uk-green) !important;
+}
+
+.header__cart-section {
+  color: var(--uk-header-color);
+}
+
+.header__basket-total {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 10px;
+  justify-content: center;
+  right: -8%;
+}
+
+.header__navigation {
+  color: var(--uk-white);
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.header__lists {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.dropdown {
+  position: relative;
+}
+.header__nav-link {
+  padding: 0.8rem 0.95rem;
+}
+.header__nav-arrow {
+  width: 12px;
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: -5px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  z-index: 1000;
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  text-align: left;
+  list-style: none;
+  background-clip: padding-box;
+  min-width: 230px;
+  border-top: 2px solid #4ec5f9;
+}
+.header__dropdown-item {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.header_navlist {
+  margin-left: 8px;
+}
+
+.header_navlist--btn {
+  margin-left: 4rem;
+}
+.header_nav-link {
+  color: inherit;
+  font-weight: 500;
+  padding: 0.6rem 1.2rem !important;
+}
+
+/* ====== banner Section ==== */
+
+.banner {
+  padding: 12rem 0 15rem 0;
+  background-image: url("../image/banner-bg.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner_heading {
+  font-size: 5rem;
+  font-weight: 700;
+  font-family: "Caveat";
+}
+
+.banner__para {
+  font-size: 1.63rem;
+}
+.banner__btn {
+  max-width: 195px;
+  width: 100%;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+/* ===== intro section  */
+.padding-common {
+  padding: 5rem 0;
+}
+
+.heading {
+  font-size: 2.6rem;
+  font-weight: 600;
+}
+
+.heading--span {
+  font-family: "Caveat";
+  font-weight: 700;
+  color: var(--uk-main);
+}

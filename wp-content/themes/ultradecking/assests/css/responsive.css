@@ -1,0 +1,25 @@
+
+ 
+@media (max-width: 991.98px) { 
+
+    .container{
+        max-width: 100%;
+        padding: 0;
+    }
+    
+    .header__join{
+        display: flex;
+        align-items: stretch;
+        
+    }
+    .header__join-btn {
+        padding: 8px;
+        font-size: 11px;
+    }
+
+ }
+ 
+@media (max-width: 1199.98px) {  }
+ 
+@media (max-width: 1399.98px) {  }
+ 
